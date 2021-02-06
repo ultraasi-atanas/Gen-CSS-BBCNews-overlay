@@ -21,7 +21,7 @@ body {
     width: 40%; /* percentage needed */
 
     left: 0px;
-    bottom: 80px;
+    bottom: 14%;
     padding-left: 70px;
     color: white;
     font-family: 'Trebuchet MS', sans-serif;
@@ -48,26 +48,43 @@ body {
     width: 100%; /* percentage needed */
     
     left: 0px;
-    bottom: 20px;
+    bottom: 2.2%;
     padding-left: 70px;
-    color: white;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.footer-bottom-right {
-    position: absolute;
-    background-color: maroon;
-    width: 60%; /* percentage needed */
-    left: 40%;
-    bottom: 20px;
+    line-height: 140%;
+    display: inline-block; /* inline flow-root */
 }
 
 .bbc-logo-letter {
     background-color: white;
     color: red;;
-    border: 1px solid white;
-    border-radius: 3px;
+    /* border: 1px solid white;
+    border-radius: 3px; */
     display: inline-block;
     text-decoration: none;
+    line-height: 100%;
 }
+
+.parliament {
+    background-color: maroon;
+    width: 60%; /* percentage needed */
+
+    left: 20%;
+    display: inline-block;
+}
+
+.date {
+    background-color: black;
+    color: white;
+    display: inline-block;
+
+    left: 30%
+}
+
+.holyrood {
+    background-color: maroon;
+    width: 60%; /* percentage needed */
+    left: 40%;
+}
+
