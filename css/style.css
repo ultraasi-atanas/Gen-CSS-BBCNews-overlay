@@ -27,6 +27,10 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
     min-width: 400px;
+
+    animation-name: tumbleIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .footer-middle {    
@@ -79,7 +83,7 @@ body {
     color: white;
     display: inline-block;
 
-    left: 30%
+    left: 30%;
 }
 
 .holyrood {
@@ -88,3 +92,13 @@ body {
     left: 40%;
 }
 
+@keyframes tumbleIn {
+    0% {
+        bottom:100%;
+        transform: rotateX(0deg) scale(0.1)
+    };
+    100% {
+        bottom:10%;
+        transform: rotateX(0deg) scale(1)
+    };
+}
