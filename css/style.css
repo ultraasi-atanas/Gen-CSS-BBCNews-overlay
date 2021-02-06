@@ -26,6 +26,7 @@ body {
     color: white;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    min-width: 400px;
 }
 
 .footer-middle {    
@@ -54,6 +55,14 @@ body {
     font-size: 20px;
 }
 
+.footer-bottom-right {
+    position: absolute;
+    background-color: maroon;
+    width: 60%; /* percentage needed */
+    left: 40%;
+    bottom: 20px;
+}
+
 .bbc-logo-letter {
     background-color: white;
     color: red;;
@@ -61,12 +70,4 @@ body {
     border-radius: 3px;
     display: inline-block;
     text-decoration: none;
-}
-
-.footer-bottom-right {
-    position: absolute;
-    background-color: maroon;
-    width: 60%; /* percentage needed */
-    left: 40%;
-    bottom: 20px;
 }
